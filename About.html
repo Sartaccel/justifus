@@ -16,8 +16,29 @@
   color: rgba(0, 0, 0, 0.05);
   /* Very light gray */
   text-align: center;
-       } 
- 
+       }
+
+        
+  @media (max-width: 1024px) { /* Tablets & Smaller Screens */
+  .outline-text {
+    font-size: 6.5rem; /* Reduce font size */
+  }
+}
+
+  /* Make it responsive */
+@media (max-width: 768px) { /* Tablets & Smaller Screens */
+  .outline-text {
+    font-size: 4.8rem; /* Reduce font size */
+  }
+}
+
+
+@media (max-width: 576px) { /* Mobile Phones */
+  .outline-text {
+    font-size: 4.5rem; /* Reduce font size even more */
+  }
+}
+
 
     </style>
 </head>
